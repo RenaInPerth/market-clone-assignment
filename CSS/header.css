@@ -1,0 +1,65 @@
+header {
+  padding-top: 20px;
+  padding-left: 10px;
+  border-bottom: 2px solid #ededef;
+  padding-bottom: 10px;
+}
+
+.info-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.info-bar__arrow {
+  width: 25px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-bar__profile-top {
+  font-size: 15px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-weight: bold;
+  color: black;
+}
+
+.temprature {
+  margin-left: 4px;
+  font-size: 12px;
+  border: 1.5px solid black;
+  border-radius: 12px;
+
+  padding: 1px 6px 1px 6px;
+}
+.info-bar__profile {
+  position: absolute;
+  font-size: 11px;
+  padding-left: 35px;
+  color: gray;
+}
+
+.info-bar__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info-bar__icon-phone {
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.info-bar__icon-bar {
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
